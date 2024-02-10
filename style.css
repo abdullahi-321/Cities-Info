@@ -25,7 +25,7 @@ h1 {
   margin-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.233);
   padding: .5rem 0;
-  width: 100rem;
+  width: 100vw;
   text-align: center;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -96,4 +96,14 @@ hr {
   border: 1px solid rgb(189, 224, 255);
   border-radius: 1px;
   box-shadow: 3px 3px 15px 10px rgba(0, 0, 0, 0.205);
+}
+
+
+@media screen and (max-width:900px) {
+
+  p:hover {
+    transform: scale(1);
+  height: 13rem;
+}
+  
 }
